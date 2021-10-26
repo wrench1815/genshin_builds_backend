@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/artifact-sets",
+      "handler": "artifact-sets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/artifact-sets/count",
+      "handler": "artifact-sets.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/artifact-sets/:id",
+      "handler": "artifact-sets.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/artifact-sets",
+      "handler": "artifact-sets.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/artifact-sets/:id",
+      "handler": "artifact-sets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/artifact-sets/:id",
+      "handler": "artifact-sets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "builds",
+  "info": {
+    "name": "Builds"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "character": {
+      "model": "character"
+    },
+    "build_name": {
+      "type": "string"
+    },
+    "build_description": {
+      "type": "richtext"
+    },
+    "artifact_sets": {
+      "collection": "artifact-sets",
+      "via": "build"
+    },
+    "weapon": {
+      "model": "weapon"
+    }
+  }
+}

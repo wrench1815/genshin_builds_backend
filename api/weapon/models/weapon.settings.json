@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weapons",
+  "info": {
+    "name": "Weapon",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "default": "https://via.placeholder.com/500.png?text=Weapon+Image"
+    },
+    "name": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "integer",
+      "default": 0
+    },
+    "weapon_type": {
+      "model": "weapon-types"
+    }
+  }
+}

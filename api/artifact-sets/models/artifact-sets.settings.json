@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artifact_sets",
+  "info": {
+    "name": "Artifact Sets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "default": "https://via.placeholder.com/500.png?text=Artifact+Image"
+    },
+    "name": {
+      "type": "string"
+    },
+    "set_bonus": {
+      "type": "text"
+    },
+    "build": {
+      "via": "artifact_sets",
+      "model": "builds"
+    }
+  }
+}

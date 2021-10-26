@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genders",
+  "info": {
+    "name": "Genders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

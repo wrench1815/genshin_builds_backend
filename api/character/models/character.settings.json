@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "characters",
+  "info": {
+    "name": "Character",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "image": {
+      "type": "string",
+      "default": "https://via.placeholder.com/1920x1080.png?text=Character+Image"
+    },
+    "birthday": {
+      "type": "string",
+      "maxLength": 20,
+      "default": "NA"
+    },
+    "release_date": {
+      "type": "date"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "gender": {
+      "model": "genders"
+    },
+    "element": {
+      "model": "elements"
+    },
+    "weapon_type": {
+      "model": "weapon-types"
+    },
+    "region": {
+      "model": "regions"
+    }
+  }
+}
