@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "artifact_sets",
   "info": {
-    "name": "Artifact Sets"
+    "name": "Artifact Sets",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -18,12 +19,15 @@
     "name": {
       "type": "string"
     },
-    "set_bonus": {
+    "two_p_bonus": {
       "type": "text"
     },
     "build": {
       "via": "artifact_sets",
       "model": "builds"
+    },
+    "four_p_bonus": {
+      "type": "text"
     }
   }
 }

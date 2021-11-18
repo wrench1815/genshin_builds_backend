@@ -21,8 +21,8 @@
       "type": "richtext"
     },
     "artifact_sets": {
-      "collection": "artifact-sets",
-      "via": "build"
+      "via": "build",
+      "collection": "artifact-sets"
     },
     "weapon": {
       "model": "weapon"
