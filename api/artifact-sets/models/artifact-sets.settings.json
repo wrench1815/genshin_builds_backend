@@ -19,12 +19,18 @@
     "name": {
       "type": "string"
     },
-    "set_bonus": {
+    "two_p_bonus": {
       "type": "text"
     },
     "build": {
       "via": "artifact_sets",
       "model": "builds"
+    },
+    "four_p_bonus": {
+      "type": "text"
+    },
+    "one_p_bonus": {
+      "type": "text"
     }
   }
 }
