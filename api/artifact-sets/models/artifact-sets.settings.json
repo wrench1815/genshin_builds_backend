@@ -28,6 +28,9 @@
     },
     "four_p_bonus": {
       "type": "text"
+    },
+    "one_p_bonus": {
+      "type": "text"
     }
   }
 }
